@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 
 def t_range(*args, step=None):
-    """A datetime generator, similar to `range`
+    """A datetime generator function
 
     Parameters:
     *args - [start], [end]
