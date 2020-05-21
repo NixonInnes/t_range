@@ -4,7 +4,7 @@ def t_range(*args, step=None):
     """A datetime generator function
 
     Parameters:
-    *args - [start], [end]
+    *args - [start, [end]]
       only accepts datetime.datetime
       defaults:
         start: now (utc)
